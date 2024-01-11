@@ -17,6 +17,29 @@
 /* ==========================================================================
   Component
 ========================================================================== */
-h1 {
-  color: #f00;
-}
+// h1 {
+//   color: #f00;
+// }
+
+
+// ========foundation============
+@import 'foundation/font';
+@import 'foundation/base';
+
+// ==============layout============
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/layout';
+
+
+
+// =============object==============
+@import 'object/component/btn';
+@import 'object/component/block';
+@import 'object/component/title';
+
+
+
+@import 'object/project/mainvisual';
+@import 'object/project/top.scss'
+// =================project=============
