@@ -1,0 +1,25 @@
+.c-btn{
+     width: 200px;
+     margin: 0 auto;
+     
+    a{
+        border: 1px solid #054dc1;
+      box-sizing: border-box;
+      border-radius: 25px;
+      background-color: #054dc1;
+      font-size: 18px;
+      font-weight: 500;
+      display: inline-flex;
+      width: 100%;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      font-family:$font-lato;
+      color: #fff;
+    }
+
+    &--view{
+        margin-left: 0%;
+        
+    }
+}

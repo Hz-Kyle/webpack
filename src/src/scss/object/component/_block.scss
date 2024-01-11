@@ -1,0 +1,42 @@
+.c-card{
+    display: flex;
+    align-items: center;
+ 
+    &__txt{
+        width: 30%;
+        margin-left: 0%;
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        max-width: 650px;
+
+        h3{
+            font-family: $font-lato;
+            text-align: left;
+            font-size: 40px;
+            line-height: 50px;
+            
+            margin-bottom: 20px;
+        }
+        p{
+        
+            font-family: $font-poppins;
+            text-align: left;
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 40px;
+           
+        }
+    }
+    &__img{
+        width: 640px;
+    }
+
+    &--slide{
+        &:nth-child(3n){
+            flex-direction: row-reverse;
+        }
+    }
+
+}

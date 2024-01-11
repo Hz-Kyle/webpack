@@ -1,0 +1,46 @@
+.l-header{
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+
+
+    &__logo{
+        text-decoration: none;
+    
+        
+
+        h1{
+           a{
+             color: #fff;
+           }
+        }
+    }
+
+
+.l-wrap-inner{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    margin: 0 auto;
+   
+        ul{
+            display: flex;
+            gap: 15px;
+            
+            li{
+                display: flex;
+
+                a{
+                    font-family: $font-poppins;
+                    color: #fff;
+                }
+                
+            }
+        }
+        
+  
+}
+
+}
